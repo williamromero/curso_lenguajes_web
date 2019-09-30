@@ -1,0 +1,134 @@
+body {
+  background-color: #e9edf9;
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%; }
+  body .main-header {
+    display: flex;
+    height: auto;
+    margin: 0 auto;
+    width: 100%; }
+    body .main-header .main-header-container {
+      display: flex;
+      flex: 0 0 980px;
+      height: 100px;
+      margin: 0 auto;
+      max-width: 980px; }
+      body .main-header .main-header-container .mhc-logo-box {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+        width: 20%; }
+        body .main-header .main-header-container .mhc-logo-box img {
+          position: absolute;
+          z-index: 1; }
+        body .main-header .main-header-container .mhc-logo-box .mhc-purple-box {
+          background-color: #6722C6;
+          border-radius: 255px;
+          height: 310px;
+          position: absolute;
+          transform: rotate(-45deg);
+          top: -110px;
+          right: -120px;
+          width: 500px;
+          z-index: 0; }
+      body .main-header .main-header-container .mhc-navigator-box {
+        display: flex;
+        margin: 0 auto;
+        width: 50%; }
+        body .main-header .main-header-container .mhc-navigator-box .mhc-navigator-box-ul {
+          align-items: center;
+          display: flex;
+          list-style: none;
+          justify-content: space-between;
+          margin: 0 auto;
+          padding: 0;
+          width: 100%; }
+          body .main-header .main-header-container .mhc-navigator-box .mhc-navigator-box-ul a {
+            color: #6722C6;
+            text-decoration: none; }
+            body .main-header .main-header-container .mhc-navigator-box .mhc-navigator-box-ul a li {
+              font-family: 'Helvetica'; }
+  body .main-home {
+    display: flex;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 100%; }
+    body .main-home .main-home-container {
+      display: flex;
+      flex: 0 0 980px;
+      flex-flow: wrap;
+      margin: 0 auto;
+      max-width: 980px; }
+      body .main-home .main-home-container .mhc-banner-box {
+        align-items: flex-end;
+        display: flex;
+        height: 400px;
+        margin: 0 auto;
+        width: 100%; }
+        body .main-home .main-home-container .mhc-banner-box .mhc-banner-box-side {
+          display: block;
+          margin: 0 auto;
+          width: 45%; }
+          body .main-home .main-home-container .mhc-banner-box .mhc-banner-box-side img {
+            width: 100%; }
+          body .main-home .main-home-container .mhc-banner-box .mhc-banner-box-side:nth-child(1) {
+            align-items: flex-end;
+            display: flex;
+            flex-flow: wrap; }
+        body .main-home .main-home-container .mhc-banner-box h1 {
+          color: #471a83;
+          font-family: 'Helvetica';
+          font-size: 2em;
+          margin-bottom: 0; }
+        body .main-home .main-home-container .mhc-banner-box p {
+          color: #471a83;
+          font-size: 1.2em;
+          font-family: 'Helvetica'; }
+      body .main-home .main-home-container .mhc-blocks-box {
+        align-items: flex-end;
+        display: flex;
+        flex: 0 0 100%;
+        justify-content: space-around;
+        margin: 3em auto;
+        width: 100%; }
+        body .main-home .main-home-container .mhc-blocks-box .mhc-blocks-box-items {
+          background-color: #fff;
+          box-shadow: 0 1px 6px rgba(194, 207, 227, 0.6);
+          border-radius: 10px;
+          height: 200px;
+          width: 30%; }
+          body .main-home .main-home-container .mhc-blocks-box .mhc-blocks-box-items h2 {
+            color: #6722c5;
+            font-family: 'Helvetica';
+            margin-bottom: 0;
+            text-align: center; }
+          body .main-home .main-home-container .mhc-blocks-box .mhc-blocks-box-items .mhc-blocks-box-items-txt {
+            color: #788293;
+            display: block;
+            font-family: 'Helvetica';
+            font-size: 1em;
+            text-align: center;
+            padding: 1em 2.5em; }
+  body footer {
+    align-items: center;
+    background-color: #6722C6;
+    color: #fff;
+    display: flex;
+    font-family: 'Helvetica';
+    height: 70px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative; }
+    body footer .main-footer-floating-box {
+      background-color: #4affc4;
+      height: 200px;
+      position: absolute;
+      right: -150px;
+      transform: rotate(-45deg);
+      width: 400px; }
+
+/*# sourceMappingURL=style.css.map */
